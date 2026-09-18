@@ -25,7 +25,7 @@ export const site = {
   address: "4747 Katella Ave Suite 100 Room 19, Los Alamitos, CA 90720",
 
   /** Hours shown in the footer and contact page. */
-  hours: "Mon\u2013Sun 9am\u20136pm",
+  hours: "Mon–Sun 9am–6pm",
 
   /** Instagram profile. */
   instagramUrl: "https://www.instagram.com/glowngobeautybychristina",

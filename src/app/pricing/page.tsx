@@ -30,12 +30,12 @@ const steps = [
   {
     icon: Syringe,
     title: "3. Quick treatment",
-    text: "Most appointments take 15\u201330 minutes. You'll see full results in about two weeks.",
+    text: "Most appointments take 15–30 minutes. You'll see full results in about two weeks.",
   },
   {
     icon: BadgeDollarSign,
     title: "4. Simple checkout",
-    text: `Pay $${site.pricePerUnit} per unit used \u2014 the exact total you already approved. No surprises.`,
+    text: `Pay $${site.pricePerUnit} per unit used — the exact total you already approved. No surprises.`,
   },
 ];
 
@@ -46,7 +46,7 @@ export default function PricingPage() {
         <SectionHeading
           eyebrow="Pricing"
           title={`$${site.pricePerUnit} per unit. That's it.`}
-          description="One flat rate for every botox treatment \u2014 no tiers, no packages you don't need, no hidden fees. Here's exactly how it works."
+          description="One flat rate for every botox treatment — no tiers, no packages you don't need, no hidden fees. Here's exactly how it works."
         />
 
         {/* Steps */}

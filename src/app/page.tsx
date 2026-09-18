@@ -38,19 +38,19 @@ const trustItems = [
 const testimonials = [
   {
     quote:
-      "Placeholder testimonial \u2014 Christina will add a real client review here after launch.",
+      "Placeholder testimonial — Christina will add a real client review here after launch.",
     name: "Client name",
     treatment: "Forehead Lines",
   },
   {
     quote:
-      "Placeholder testimonial \u2014 Christina will add a real client review here after launch.",
+      "Placeholder testimonial — Christina will add a real client review here after launch.",
     name: "Client name",
     treatment: "Crow's Feet",
   },
   {
     quote:
-      "Placeholder testimonial \u2014 Christina will add a real client review here after launch.",
+      "Placeholder testimonial — Christina will add a real client review here after launch.",
     name: "Client name",
     treatment: "Lip Flip",
   },
@@ -67,11 +67,11 @@ export default function HomePage() {
               Botox in Los Alamitos, CA
             </p>
             <h1 className="mt-4 font-display text-4xl font-semibold leading-tight text-charcoal sm:text-5xl lg:text-6xl">
-              Botox that looks like you \u2014 just refreshed
+              Botox that looks like you — just refreshed
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-espresso">
               {site.tagline} Subtle, natural enhancements at a simple flat
-              rate of ${site.pricePerUnit} per unit \u2014 so you can smooth,
+              rate of ${site.pricePerUnit} per unit — so you can smooth,
               lift, and glow with total confidence.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -148,7 +148,7 @@ export default function HomePage() {
                 <p className="mt-4 text-sm font-semibold text-gold-deep">
                   {priceRange(t)}{" "}
                   <span className="font-normal text-taupe">
-                    \u00b7 {t.typicalUnits}
+                    · {t.typicalUnits}
                   </span>
                 </p>
               </Link>
@@ -177,7 +177,7 @@ export default function HomePage() {
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-cream/75">
             No tiered menus, no hidden fees. Your exact unit count and total
-            are confirmed with you at your consultation \u2014 before anything
+            are confirmed with you at your consultation — before anything
             is injected.
           </p>
           <Link
@@ -199,7 +199,7 @@ export default function HomePage() {
               align="left"
               eyebrow="Your injector"
               title="Meet Christina"
-              description="A licensed aesthetic nurse injector with an eye for natural, balanced results. Christina believes the best botox is the kind nobody can spot \u2014 friends just notice you look rested."
+              description="A licensed aesthetic nurse injector with an eye for natural, balanced results. Christina believes the best botox is the kind nobody can spot — friends just notice you look rested."
             />
             <p className="mt-4 text-base leading-relaxed text-espresso">
               Working alongside the team at Glow N Go Beauty in Los Alamitos,
@@ -248,7 +248,7 @@ export default function HomePage() {
                 </blockquote>
                 <figcaption className="mt-4 text-sm">
                   <span className="font-semibold text-charcoal">{t.name}</span>
-                  <span className="text-taupe"> \u00b7 {t.treatment}</span>
+                  <span className="text-taupe"> · {t.treatment}</span>
                 </figcaption>
               </figure>
             ))}

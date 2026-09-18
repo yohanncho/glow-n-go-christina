@@ -15,7 +15,7 @@ export default function BookingPage() {
         <SectionHeading
           eyebrow="Booking"
           title="Book your consultation"
-          description="Choose a time that works for you. Your consultation is free, and your treatment plan \u2014 with exact units and pricing \u2014 is confirmed before anything is injected."
+          description="Choose a time that works for you. Your consultation is free, and your treatment plan — with exact units and pricing — is confirmed before anything is injected."
         />
 
         <div className="mt-10 rounded-2xl border border-linen bg-sand p-6 text-center">
@@ -44,7 +44,7 @@ export default function BookingPage() {
             <ExternalLink className="h-4 w-4" aria-hidden="true" />
           </a>
           <p className="mt-3 text-xs text-taupe">
-            Opens in a new tab \u00b7 Powered by Calendly
+            Opens in a new tab · Powered by Calendly
           </p>
         </div>
 

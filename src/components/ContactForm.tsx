@@ -5,7 +5,7 @@ import { Send } from "lucide-react";
 
 /**
  * Front-end-only contact form.
- * There is no backend wired up yet \u2014 submitting shows a notice
+ * There is no backend wired up yet — submitting shows a notice
  * instead of sending. When a form backend (Formspree, Resend, etc.)
  * is chosen, wire it up here and set the destination in
  * src/config/site.ts (contactEmail).
@@ -25,7 +25,7 @@ export function ContactForm() {
           Thanks for reaching out
         </p>
         <p className="mt-2 text-sm leading-relaxed text-espresso">
-          This demo form doesn&apos;t send anywhere yet \u2014 the message
+          This demo form doesn&apos;t send anywhere yet — the message
           backend is coming soon. Please call, text, or DM on Instagram and
           we&apos;ll get right back to you.
         </p>

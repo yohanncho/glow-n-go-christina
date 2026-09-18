@@ -8,7 +8,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 
 export const metadata: Metadata = {
   title: "Botox Treatments",
-  description: `Every botox treatment offered by ${site.businessName} in Los Alamitos, CA \u2014 forehead lines, crow's feet, lip flip, jaw slimming and more, all at $${site.pricePerUnit}/unit.`,
+  description: `Every botox treatment offered by ${site.businessName} in Los Alamitos, CA — forehead lines, crow's feet, lip flip, jaw slimming and more, all at $${site.pricePerUnit}/unit.`,
 };
 
 export default function TreatmentsPage() {
@@ -18,7 +18,7 @@ export default function TreatmentsPage() {
         <SectionHeading
           eyebrow="Menu"
           title="Botox treatments"
-          description={`Every treatment below is priced at a flat $${site.pricePerUnit} per unit. Unit counts shown are typical ranges \u2014 your exact plan is confirmed with Christina at your consultation, before anything is injected.`}
+          description={`Every treatment below is priced at a flat $${site.pricePerUnit} per unit. Unit counts shown are typical ranges — your exact plan is confirmed with Christina at your consultation, before anything is injected.`}
         />
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
@@ -76,7 +76,7 @@ export default function TreatmentsPage() {
               A note on unit counts:{" "}
             </span>
             everyone&apos;s facial anatomy is different. The ranges above are
-            typical \u2014 Christina will assess your muscle movement at your
+            typical — Christina will assess your muscle movement at your
             consultation and confirm your exact units and total price before
             treatment begins.
           </p>

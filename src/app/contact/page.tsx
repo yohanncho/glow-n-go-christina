@@ -7,7 +7,7 @@ import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: `Get in touch with ${site.businessName} in Los Alamitos, CA \u2014 address, hours, phone, and Instagram.`,
+  description: `Get in touch with ${site.businessName} in Los Alamitos, CA — address, hours, phone, and Instagram.`,
 };
 
 const infoCards = [
@@ -43,7 +43,7 @@ export default function ContactPage() {
         <SectionHeading
           eyebrow="Contact"
           title="Get in touch"
-          description="Questions about treatments, pricing, or booking? Reach out \u2014 we usually reply within one business day."
+          description="Questions about treatments, pricing, or booking? Reach out — we usually reply within one business day."
         />
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -95,7 +95,7 @@ export default function ContactPage() {
               Send a message
             </h2>
             <p className="mt-2 text-sm text-espresso">
-              Front-end demo only \u2014 the form backend is coming soon. For
+              Front-end demo only — the form backend is coming soon. For
               now, please call, text, or DM on Instagram.
             </p>
             <ContactForm />

@@ -24,7 +24,7 @@ const credentials = [
   {
     icon: HeartHandshake,
     title: "Conservative philosophy",
-    text: "Artful, measured dosing \u2014 the best botox is the kind nobody can spot.",
+    text: "Artful, measured dosing — the best botox is the kind nobody can spot.",
   },
 ];
 
@@ -45,14 +45,14 @@ export default function AboutPage() {
             <div className="mt-6 space-y-5 text-base leading-relaxed text-espresso">
               <p>
                 <span className="rounded bg-gold-soft px-2 py-0.5 text-xs font-semibold uppercase tracking-widest text-gold-deep">
-                  Placeholder \u2014 Christina to personalize
+                  Placeholder — Christina to personalize
                 </span>
               </p>
               <p>
                 I&apos;m Christina, a licensed aesthetic nurse injector based
                 in Los Alamitos, California. I started {site.businessName}{" "}
                 because I believe botox should enhance what makes you
-                you \u2014 never change it. My approach is conservative and
+                you — never change it. My approach is conservative and
                 precise: we start with your goals, study your facial movement,
                 and build a plan around the most natural version of your
                 results.
